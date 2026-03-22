@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Página Inicial - IFSP</title>
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        margin: 40px;
+        color: #000;
+        background-color: #fff;
+      }
+
+      nav.menu-topo {
+        text-align: right;
+        margin-bottom: 20px;
+      }
+
+      nav.menu-topo a {
+        text-decoration: underline;
+        color: #551a8b;
+        font-size: 0.95em;
+      }
+
+      .logo {
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        font-size: 1.1em;
+        margin-bottom: 10px;
+        margin-top: 20px;
+      }
+
+      h2 {
+        font-size: 1.4em;
+        margin-top: 30px;
+        margin-bottom: 15px;
+      }
+
+      .secao-cursos ul {
+        margin-top: 5px;
+        padding-left: 40px;
+      }
+
+      .secao-cursos li {
+        margin-bottom: 2px;
+      }
+
+      .secao-cursos a {
+        color: #0000ee;
+        text-decoration: underline;
+      }
+
+      .secao-cursos a:visited {
+        color: #551a8b;
+      }
+
+      .evento-img {
+        max-width: 450px;
+        display: block;
+      }
+
+      .biblioteca-icone {
+        width: 90px;
+        display: block;
+        margin-bottom: 15px;
+      }
+
+      .suap-iframe {
+        max-width: 450px;
+        width: 100%;
+        height: 250px;
+        display: block;
+        margin-bottom: 40px;
+        border: 1px solid #000;
+      }
+
+      .rodape-icones {
+        margin-bottom: 10px;
+      }
+
+      .rodape-icones img {
+        height: 35px;
+        margin-right: 5px;
+        vertical-align: middle;
+      }
+
+      .rodape-texto {
+        font-size: 0.8em;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="menu-topo">
+        <a href="index.html">HOME</a> | <a href="contato.html">CONTATO</a> |
+        <a href="sobre.html">SOBRE</a>
+      </nav>
+
+      <div class="logo">
+        <img src="ifsp.png" alt="Instituto Federal São Paulo" />
+      </div>
+    </header>
+
+    <main>
+      <section class="secao-cursos">
+        <h3>Cursos</h3>
+        <ul>
+          <li>
+            <a href="cursos.html#ads">Análise e Desenvolvimento de Sistemas</a>
+          </li>
+          <li><a href="cursos.html#eng">Engenharia de Produção</a></li>
+          <li>
+            <a href="cursos.html#gti">Gestão em Tecnologia da Informação</a>
+          </li>
+          <li><a href="cursos.html#letras">Letras</a></li>
+          <li><a href="cursos.html#gestao">Gestão Pública</a></li>
+        </ul>
+      </section>
+
+      <section class="secao-eventos">
+        <h3>Eventos</h3>
+        <img src="SEJA_RARO.jpg" alt="Palestra Seja Raro" class="evento-img" />
+        <p style="font-size: 0.9em; margin-top: 5px; margin-bottom: 30px">
+          Aniversário do IFSP - Pirituba - Palestra Augusto Aielo
+        </p>
+      </section>
+
+      <section class="secao-biblioteca">
+        <h2>Sobre a Biblioteca</h2>
+        <img
+          src="library.jpeg"
+          alt="Ícone Biblioteca"
+          class="biblioteca-icone"
+        />
+        <p style="font-size: 1.1em; font-weight: bold; margin-bottom: 5px">
+          Conheça os novos títulos disponíveis na nossa biblioteca
+        </p>
+        <p style="font-size: 0.65em; font-weight: bold; margin-bottom: 30px">
+          Publicado: Quarta-feira, 14 de agosto de 2019
+        </p>
+      </section>
+
+      <section class="secao-suap">
+        <h2>Conheça o SUAP</h2>
+        <iframe
+          class="suap-iframe"
+          src="https://www.youtube.com/embed/1egUfDkqkaA"
+          title="Tutorial de Acesso - SUAP 1"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+          "
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+
+    <footer>
+      <div class="rodape-icones">
+        <a href="#top"><img src="MoveTop.png" alt="Voltar ao topo" /></a>
+        <a href="https://www.facebook.com/ifsppirituba" target="_blank"
+          ><img src="facebook.png" alt="Facebook"
+        /></a>
+      </div>
+      <p class="rodape-texto">
+        IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP:
+        05110-000 - São Paulo/SP - Contato: (011) 2504-0100
+      </p>
+    </footer>
+  </body>
+</html>
